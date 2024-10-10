@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+*{
+    box-sizing: border-box;
+    /* padding: 0; */
+    /* margin: 0; */
+}
+.header img{
+    /* background-color: #FE5A61; */
+    border: 10px solid #FF0000;
+    border-radius: 10px;
+    width: 300px;
+    /* width: 300px;
+    height:80px;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff; */
+}
+
+.about{
+    text-shadow: 5px 5px blue;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(221, 47, 47);
+}
+
+p::first-letter{
+    font-weight: 600;
+    font-size: 40px;
+}
+
+table, td, th {  
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 200px;
+}
+
+.red{
+    color: red;
+}
+.blue{
+    color: blue;
+}
+
+ul,.red,.blue{
+    font-size: 17px;
+    font-weight: 600;
+}
+
+#twitter{
+    text-decoration: none;
+    color: #629194;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px black;
+}
+
+footer a:not(:last-child){
+    border-right: 1px solid #000;
+}
+
+.title-desc{
+    font-size: 30px;
+    color: rgb(208, 50, 50);
+}
+
+p strong, i{
+    font-size: 27px;
+    font-weight: 600;
+}
